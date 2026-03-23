@@ -1,10 +1,10 @@
-# OpenClaw AI Engineering Skills
+# AI Engineering Skills
 
 > 🚀 **掌握 AI 应用工程核心技能，从理论到生产级实践**
 >
 > 基于认知敏捷法 RCSW 的系统化学习路径 · 真实业务案例驱动 · 对标顶尖 AI 公司技能要求
 
-[![GitHub stars](https://img.shields.io/github/stars/openclaw/ai-engineering-skills?style=for-the-badge)]()
+[![GitHub stars](https://img.shields.io/github/stars/hyeebeen/ai-engineering-skills?style=for-the-badge)]()
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg?style=for-the-badge)]()
 [![Version](https://img.shields.io/badge/version-v0.1.0-blue.svg?style=for-the-badge)]()
 [![Discord](https://img.shields.io/badge/Discord-Join-7289da.svg?style=for-the-badge&logo=discord)]()
@@ -40,7 +40,7 @@
 
 ```
 ✅ 系统化技能树 —— 7 大核心模块，覆盖 AI 应用开发全生命周期
-✅ 生产级代码 —— 来自 LogiNexus 真实业务场景，可直接复用
+✅ 生产级代码 —— 来自喆点物流真实业务场景，可直接复用
 ✅ 面试导向 —— 技能矩阵 + 项目创意 + 模拟面试，一站式准备
 ✅ 最佳实践库 —— 汇集顶尖 AI 公司的工程方法论
 ```
@@ -70,7 +70,7 @@
 
 ```bash
 # 1. 克隆项目
-git clone https://github.com/openclaw/ai-engineering-skills.git
+git clone https://github.com/hyeebeen/ai-engineering-skills.git
 cd ai-engineering-skills
 
 # 2. 安装依赖
@@ -87,8 +87,8 @@ python run.py
 ### 使用第一个技能包
 
 ```python
-# 在 OpenClaw 中加载 rag-builder 技能
-from openclaw.skills import rag_builder
+# 加载 rag-builder 技能
+from ai_engineering_skills import rag_builder
 
 # 初始化 RAG 系统
 rag = rag_builder.RAGBuilder(
@@ -200,7 +200,7 @@ Week 17-18: AI 安全 ──→ 进阶技能，合规意识
 
 ```
 📚 内容：ReAct、Plan-and-Solve、多 Agent 协作、工具调用
-💻 示例：自动对账 Agent、客服 Agent
+💻 示例：物流对账 Agent、客服 Agent
 🎯 产出：Agent 编排器技能包
 ⏱️ 学时：10 小时
 ```
@@ -213,7 +213,7 @@ Week 17-18: AI 安全 ──→ 进阶技能，合规意识
 
 ```
 📚 内容：Schema 设计、参数验证、错误处理、链式调用
-💻 示例：LogiNexus API 集成、数据库查询
+💻 示例：物流企业 API 集成、数据库查询
 🎯 产出：函数调用最佳实践模板
 ⏱️ 学时：6 小时
 ```

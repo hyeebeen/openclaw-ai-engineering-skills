@@ -14,7 +14,7 @@
 4. [内容大纲](#内容大纲)
 5. [开发路线图](#开发路线图)
 6. [GitHub 运营策略](#github-运营策略)
-7. [与 LogiNexus 协同](#与-log nexus-协同)
+7. [与 喆点物流 协同](#与-log nexus-协同)
 8. [成功指标](#成功指标)
 
 ---
@@ -36,7 +36,7 @@
 | 内容组织 | 碎片化知识点 | 系统化技能树 |
 | 实践深度 | 玩具级示例 | 生产级代码 |
 | 方法论 | 纯技术讲解 | 认知敏捷法 RCSW |
-| 案例来源 | 虚构场景 | LogiNexus 真实业务 |
+| 案例来源 | 虚构场景 | 喆点物流 真实业务 |
 | 更新频率 | 年更 | 周更 |
 
 ### 目标用户画像
@@ -105,7 +105,7 @@ openclaw-ai-engineering-skills/
 │   └── deployment-helper/         # 部署助手
 │
 ├── examples/                      # 完整示例项目（学习核心）
-│   ├── log nexus-rag/             # LogiNexus RAG 订单检索
+│   ├── log nexus-rag/             # 喆点物流 RAG 订单检索
 │   │   ├── README.md
 │   │   ├── docker-compose.yml
 │   │   ├── src/
@@ -174,7 +174,7 @@ openclaw-ai-engineering-skills/
 💻 实战代码 (4h)
    ├── 基础 RAG 实现
    ├── 高级 RAG 技巧（重排序、查询扩展、多向量检索）
-   ├── LogiNexus 订单检索案例
+   ├── 喆点物流 订单检索案例
    └── 性能优化实践
 
 📝 练习题 (2h)
@@ -185,7 +185,7 @@ openclaw-ai-engineering-skills/
 
 **认知敏捷法 RCSW 融入**：
 - **Rapid**：提供可一键运行的 Docker 环境，5 分钟上手
-- **Contextual**：每个概念配真实业务场景（LogiNexus 案例）
+- **Contextual**：每个概念配真实业务场景（喆点物流 案例）
 - **Structured**：清晰的学习路径和检查点
 - **Workshop**：每章末尾的实战练习和代码审查
 
@@ -211,7 +211,7 @@ openclaw-ai-engineering-skills/
    ├── 单 Agent 实现（客服 Agent）
    ├── 多 Agent 系统（规划者 + 执行者 + 审查者）
    ├── 工具集成实战（API 调用、数据库查询）
-   └── LogiNexus 自动对账 Agent 案例
+   └── 喆点物流 自动对账 Agent 案例
 
 📝 练习题 (2h)
    ├── 设计旅行规划 Agent
@@ -241,7 +241,7 @@ openclaw-ai-engineering-skills/
    ├── 基础函数调用
    ├── 并行函数执行
    ├── 链式函数调用
-   └── LogiNexus API 集成案例
+   └── 喆点物流 API 集成案例
 
 📝 练习题 (1h)
    ├── 构建天气查询工具
@@ -568,7 +568,7 @@ openclaw-ai-engineering-skills/
 
 ---
 
-## 与 LogiNexus 协同
+## 与 喆点物流 协同
 
 ### 协同价值
 
@@ -577,22 +577,22 @@ openclaw-ai-engineering-skills/
 │                    双向促进循环                          │
 ├─────────────────────────────────────────────────────────┤
 │                                                         │
-│   LogiNexus 真实业务场景                                 │
+│   喆点物流 真实业务场景                                 │
 │         ↓                                               │
 │   抽象为通用示例 → openclaw-ai-engineering-skills       │
 │         ↓                                               │
 │   社区反馈和优化                                        │
 │         ↓                                               │
-│   反哺 LogiNexus 技术深度                                │
+│   反哺 喆点物流 技术深度                                │
 │         ↓                                               │
 │   形成新的最佳实践 → 更新开源项目                       │
 │                                                         │
 └─────────────────────────────────────────────────────────┘
 ```
 
-### LogiNexus 模块抽象计划
+### 喆点物流 模块抽象计划
 
-| LogiNexus 模块 | 抽象为示例 | 通用价值 |
+| 喆点物流 模块 | 抽象为示例 | 通用价值 |
 |----------------|------------|----------|
 | 订单智能检索 | log nexus-rag | 电商/ERP 系统的 RAG 应用 |
 | 自动对账系统 | auto-reconciliation | 财务/金融领域的 Agent 应用 |
@@ -602,15 +602,15 @@ openclaw-ai-engineering-skills/
 
 ### 抽象原则
 
-1. **去业务化**：移除 LogiNexus 特定的业务逻辑和术语
+1. **去业务化**：移除 喆点物流 特定的业务逻辑和术语
 2. **可配置化**：通过配置文件适配不同场景
-3. **文档分离**：示例代码通用，额外提供 LogiNexus 集成指南
+3. **文档分离**：示例代码通用，额外提供 喆点物流 集成指南
 4. **数据脱敏**：使用合成数据或公开数据集
 
 ### 协同时间表
 
 ```
-2026-04: LogiNexus RAG 模块抽象完成 → log nexus-rag 示例
+2026-04: 喆点物流 RAG 模块抽象完成 → log nexus-rag 示例
 2026-05: 自动对账 Agent 抽象完成 → auto-reconciliation 示例
 2026-06: 客服 Agent 抽象完成 → customer-support-agent 示例
 2026-07: 多 Agent 系统抽象完成 → multi-agent-system 示例
@@ -619,9 +619,9 @@ openclaw-ai-engineering-skills/
 ### 知识产权处理
 
 - **开源项目**：MIT License，完全开源
-- **LogiNexus 专有代码**：不直接复制，重新实现通用版本
-- **双向授权**：LogiNexus 可使用开源项目中的改进
-- **署名要求**：在 LogiNexus 文档中引用开源项目
+- **喆点物流 专有代码**：不直接复制，重新实现通用版本
+- **双向授权**：喆点物流 可使用开源项目中的改进
+- **署名要求**：在 喆点物流 文档中引用开源项目
 
 ---
 
@@ -654,7 +654,7 @@ openclaw-ai-engineering-skills/
 |------|------|------|----------|
 | 内容更新跟不上技术变化 | 中 | 高 | 建立社区贡献机制，快速响应 |
 | 用户参与度低 | 中 | 中 | 加强运营，举办活动，激励贡献 |
-| 与现有项目同质化 | 低 | 高 | 突出 RCSW 方法论和 LogiNexus 案例差异化 |
+| 与现有项目同质化 | 低 | 高 | 突出 RCSW 方法论和 喆点物流 案例差异化 |
 | 时间投入不足 | 高 | 高 | 制定明确里程碑，寻求合作者 |
 | OpenClaw 生态变化 | 低 | 中 | 保持与官方沟通，及时适配 |
 
