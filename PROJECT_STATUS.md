@@ -2,7 +2,8 @@
 
 > 📊 OpenClaw AI Engineering Skills 项目进度追踪
 >
-> 创建日期：2026-03-23
+> 创建日期：2026-03-23  
+> **GitHub 仓库**: https://github.com/hyeebeen/openclaw-ai-engineering-skills
 
 ---
 
@@ -11,10 +12,23 @@
 | 属性 | 值 |
 |------|-----|
 | **项目名称** | openclaw-ai-engineering-skills |
-| **版本** | v0.1.0 (规划中) |
-| **状态** | 🟡 规划完成，待开发 |
+| **版本** | v0.1.0 (开发中) |
+| **状态** | 🟢 **仓库已创建，代码已推送** |
+| **GitHub Stars** | 0 (等待发布) |
 | **目标 Stars** | 10,000 (12 个月) |
 | **许可证** | MIT |
+| **仓库 URL** | https://github.com/hyeebeen/openclaw-ai-engineering-skills |
+
+---
+
+## 🎉 里程碑
+
+### ✅ 2026-03-23: 项目创建
+- [x] GitHub 仓库创建
+- [x] 初始代码推送（2 commits）
+- [x] 项目规划完成
+- [x] README 初稿完成
+- [x] 首个技能包骨架（rag-builder）
 
 ---
 
